@@ -1,0 +1,37 @@
+   ##BEWEGUNGSCODE##
+   
+   public void linksGehen()
+    {
+       if (Greenfoot.isKeyDown(links))
+       {
+         setLocation(getX()-1, getY());
+         
+       }  
+    }
+     public void rechtsGehen()
+    {
+       if (Greenfoot.isKeyDown(rechts))
+       {
+         setLocation(getX()+1, getY());
+      
+       
+       }  
+    }
+    public void obenGehen()
+    {
+       if (Greenfoot.isKeyDown(oben))
+       {
+         setLocation(getX(), getY()-1);
+     
+       
+       }  
+    }
+    public void untenGehen()
+    {
+       if (Greenfoot.isKeyDown(unten))
+       {
+         setLocation(getX(), getY()+1);
+        
+        
+       }  
+    }
